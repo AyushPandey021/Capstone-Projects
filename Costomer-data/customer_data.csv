@@ -1,0 +1,1001 @@
+CustomerID,Age,Gender,AnnualIncome,SpendingScore,City,ProductCategory,PurchaseAmount,MembershipStatus
+1,56,Male,65648,5,Hyderabad,Groceries,3419.45,Gold
+2,69,Male,123537,84,Mumbai,Electronics,2199.44,Platinum
+3,46,Male,145991,65,Delhi,Books,3684.33,Gold
+4,32,Female,29516,30,Delhi,Books,4139.91,Silver
+5,60,Male,132863,21,Chennai,Groceries,817.54,Gold
+6,25,Male,135005,84,Chennai,Books,4181.36,Gold
+7,38,Male,22396,70,Delhi,Groceries,2747.45,Silver
+8,56,Female,104082,22,Bangalore,Clothing,4238.86,Gold
+9,36,Female,39129,82,Bangalore,Home Decor,2213.38,Gold
+10,40,Male,148322,72,Chennai,Clothing,1957.3,Gold
+11,28,Male,21591,32,Hyderabad,Groceries,4583.8,Gold
+12,28,Male,31303,33,Delhi,Groceries,1330.73,Silver
+13,41,Male,50561,16,Chennai,Clothing,4236.64,Gold
+14,53,Female,91719,76,Chennai,Electronics,2471.7,Silver
+15,57,Female,138618,38,Delhi,Electronics,2619.07,Gold
+16,41,Female,112108,98,Delhi,Electronics,1611.49,Gold
+17,20,Female,148748,14,Bangalore,Groceries,2907.91,Gold
+18,39,Male,119616,36,Hyderabad,Books,1693.53,Gold
+19,19,Male,144165,97,Hyderabad,Groceries,292.42,Silver
+20,41,Male,106231,23,Delhi,Books,1432.79,Silver
+21,61,Female,27314,66,Mumbai,Clothing,131.26,Silver
+22,47,Male,137071,85,Chennai,Home Decor,4893.94,Platinum
+23,55,Female,39623,2,Chennai,Books,4832.16,Gold
+24,19,Female,87675,91,Delhi,Electronics,2036.26,Gold
+25,38,Male,132992,73,Mumbai,Groceries,3669.02,Silver
+26,50,Male,116826,65,Bangalore,Clothing,1794.45,Platinum
+27,29,Male,85082,75,Delhi,Electronics,3388.36,Gold
+28,39,Female,149839,67,Delhi,Clothing,4046.61,Silver
+29,61,Male,103624,52,Chennai,Home Decor,4739.11,Gold
+30,42,Female,125228,62,Delhi,Groceries,2061.04,Gold
+31,66,Male,53130,23,Delhi,Groceries,3938.16,Silver
+32,44,Female,71756,26,Delhi,Home Decor,1403.05,Silver
+33,59,Female,117624,68,Chennai,Groceries,4952.63,Gold
+34,45,Male,46292,82,Bangalore,Books,226.27,Gold
+35,33,Female,131785,55,Bangalore,Clothing,3057.29,Silver
+36,32,Female,147331,6,Delhi,Electronics,3331.58,Gold
+37,64,Male,106206,35,Chennai,Home Decor,3471.42,Gold
+38,68,Female,89274,22,Bangalore,Books,689.9,Silver
+39,61,Male,22469,43,Bangalore,Electronics,4698.8,Gold
+40,69,Female,73947,15,Bangalore,Electronics,987.8,Gold
+41,20,Male,42534,86,Chennai,Home Decor,3151.49,Platinum
+42,54,Male,83620,60,Chennai,Books,1191.11,Silver
+43,68,Female,68874,12,Delhi,Electronics,1605.36,Platinum
+44,24,Female,69708,49,Hyderabad,Electronics,2777.65,Platinum
+45,38,Female,94553,42,Bangalore,Books,2144.25,Platinum
+46,26,Female,88344,38,Hyderabad,Groceries,885.11,Gold
+47,56,Female,69138,82,Chennai,Electronics,937.59,Gold
+48,35,Male,74302,45,Chennai,Clothing,2148.91,Platinum
+49,21,Female,67638,35,Chennai,Books,3810.69,Platinum
+50,42,Male,98249,30,Hyderabad,Electronics,4500.03,Platinum
+51,31,Male,125865,88,Chennai,Home Decor,512.23,Gold
+52,67,Female,22719,30,Delhi,Clothing,2026.21,Platinum
+53,26,Male,42890,78,Chennai,Electronics,591.2,Platinum
+54,43,Male,97236,6,Mumbai,Clothing,181.3,Silver
+55,19,Male,56509,67,Hyderabad,Clothing,3342.42,Silver
+56,37,Male,62534,80,Mumbai,Groceries,3052.0,Gold
+57,45,Female,122302,7,Chennai,Clothing,898.79,Silver
+58,64,Male,112241,52,Delhi,Groceries,1245.68,Silver
+59,24,Female,38787,14,Bangalore,Books,216.17,Silver
+60,61,Female,146209,73,Chennai,Groceries,4191.24,Gold
+61,25,Male,68845,15,Delhi,Home Decor,4875.98,Silver
+62,64,Female,77932,21,Hyderabad,Electronics,763.75,Gold
+63,52,Female,112124,35,Mumbai,Books,1234.23,Platinum
+64,31,Female,111659,66,Mumbai,Books,4355.21,Silver
+65,34,Male,53062,91,Mumbai,Home Decor,4639.67,Gold
+66,53,Female,95713,2,Hyderabad,Groceries,2156.17,Silver
+67,67,Female,107263,35,Delhi,Electronics,348.05,Platinum
+68,57,Female,115756,82,Hyderabad,Groceries,293.02,Gold
+69,21,Male,80461,78,Mumbai,Clothing,2912.35,Gold
+70,19,Female,95418,20,Chennai,Groceries,2025.19,Gold
+71,23,Male,86672,82,Bangalore,Books,240.4,Platinum
+72,59,Male,148232,10,Hyderabad,Electronics,2957.94,Platinum
+73,21,Male,54832,25,Hyderabad,Groceries,155.38,Platinum
+74,46,Male,147335,66,Delhi,Electronics,3958.12,Gold
+75,35,Male,51966,25,Delhi,Electronics,1601.52,Platinum
+76,43,Male,92545,54,Hyderabad,Clothing,297.26,Silver
+77,61,Female,32987,33,Mumbai,Clothing,2982.93,Platinum
+78,51,Male,57311,36,Bangalore,Books,2048.65,Gold
+79,27,Female,51575,95,Delhi,Home Decor,4871.62,Silver
+80,53,Female,83852,14,Mumbai,Electronics,2766.57,Platinum
+81,31,Male,147650,65,Chennai,Home Decor,1448.67,Silver
+82,48,Female,21007,80,Delhi,Books,3576.25,Silver
+83,65,Female,90981,54,Mumbai,Electronics,1430.31,Gold
+84,32,Female,96242,52,Mumbai,Electronics,4530.79,Silver
+85,25,Female,67517,3,Bangalore,Home Decor,1936.14,Silver
+86,31,Male,130022,99,Bangalore,Groceries,2794.36,Gold
+87,40,Female,49257,41,Chennai,Clothing,347.81,Gold
+88,57,Male,107272,6,Mumbai,Groceries,2187.99,Gold
+89,38,Female,62207,25,Mumbai,Home Decor,4178.58,Silver
+90,33,Female,33281,13,Bangalore,Clothing,4047.68,Silver
+91,62,Male,81246,98,Delhi,Groceries,1199.16,Silver
+92,35,Female,21435,8,Delhi,Clothing,1207.79,Gold
+93,64,Female,118875,21,Hyderabad,Electronics,4104.8,Platinum
+94,41,Female,120686,98,Bangalore,Groceries,4658.95,Silver
+95,43,Male,111357,68,Hyderabad,Clothing,567.27,Platinum
+96,42,Female,46660,25,Bangalore,Clothing,2305.29,Gold
+97,62,Male,25084,79,Chennai,Clothing,1753.53,Silver
+98,58,Female,102197,68,Mumbai,Groceries,4366.37,Platinum
+99,46,Male,33507,45,Chennai,Books,509.27,Silver
+100,32,Male,92595,60,Bangalore,Groceries,1134.52,Silver
+101,62,Female,103807,12,Mumbai,Home Decor,3787.09,Silver
+102,18,Female,65539,32,Delhi,Groceries,351.34,Platinum
+103,42,Male,135953,96,Delhi,Clothing,2513.42,Gold
+104,24,Male,27491,92,Hyderabad,Electronics,2266.32,Silver
+105,26,Female,147706,13,Bangalore,Groceries,1738.57,Gold
+106,41,Male,132831,31,Bangalore,Groceries,2033.4,Gold
+107,18,Female,70192,78,Delhi,Clothing,2696.71,Platinum
+108,61,Female,100395,20,Chennai,Electronics,890.7,Platinum
+109,25,Female,143797,18,Mumbai,Electronics,2902.78,Gold
+110,41,Female,83888,93,Chennai,Home Decor,4046.62,Silver
+111,28,Male,93609,60,Chennai,Groceries,3824.79,Platinum
+112,68,Female,29077,63,Delhi,Electronics,854.11,Silver
+113,34,Male,137440,6,Delhi,Electronics,831.32,Silver
+114,25,Female,142901,32,Delhi,Books,1414.05,Silver
+115,52,Male,40953,93,Hyderabad,Books,1869.27,Gold
+116,52,Female,96919,43,Chennai,Electronics,2101.43,Silver
+117,50,Male,134682,2,Bangalore,Home Decor,3430.52,Gold
+118,22,Male,141041,60,Mumbai,Electronics,377.73,Gold
+119,59,Female,87889,23,Hyderabad,Clothing,269.9,Silver
+120,56,Female,43821,83,Bangalore,Groceries,2020.36,Silver
+121,58,Female,57567,31,Chennai,Home Decor,3516.1,Silver
+122,45,Female,135374,5,Delhi,Clothing,1047.83,Silver
+123,24,Male,44860,83,Chennai,Home Decor,3243.37,Gold
+124,26,Female,41195,34,Mumbai,Clothing,1373.16,Silver
+125,25,Male,97475,10,Hyderabad,Groceries,4441.82,Silver
+126,29,Male,110874,89,Hyderabad,Groceries,4488.88,Gold
+127,51,Female,107266,2,Mumbai,Books,1556.71,Platinum
+128,50,Male,41427,11,Bangalore,Clothing,1226.97,Platinum
+129,65,Male,120732,50,Bangalore,Books,2115.39,Gold
+130,40,Male,47083,31,Hyderabad,Clothing,1278.6,Platinum
+131,41,Male,107046,56,Hyderabad,Books,3394.68,Gold
+132,54,Female,77372,79,Delhi,Groceries,4147.72,Silver
+133,52,Female,143786,73,Bangalore,Home Decor,3398.15,Silver
+134,61,Female,64064,87,Mumbai,Books,4139.32,Platinum
+135,57,Female,27813,83,Bangalore,Clothing,2045.26,Silver
+136,39,Male,51598,9,Delhi,Clothing,865.95,Platinum
+137,44,Male,132718,99,Hyderabad,Groceries,3715.96,Platinum
+138,52,Female,146879,21,Hyderabad,Clothing,1866.33,Silver
+139,18,Female,113106,73,Delhi,Electronics,3389.23,Silver
+140,52,Female,47082,28,Mumbai,Home Decor,1426.16,Platinum
+141,54,Male,49241,62,Hyderabad,Books,498.03,Silver
+142,64,Female,116214,7,Chennai,Home Decor,4963.65,Gold
+143,31,Female,64569,80,Hyderabad,Groceries,865.39,Silver
+144,20,Female,31745,16,Chennai,Books,4943.26,Silver
+145,18,Male,46029,97,Delhi,Books,4888.67,Gold
+146,22,Male,33025,4,Delhi,Electronics,3989.71,Silver
+147,43,Male,121660,4,Hyderabad,Groceries,3331.17,Silver
+148,31,Male,143395,40,Bangalore,Clothing,2931.25,Platinum
+149,56,Male,34288,17,Chennai,Electronics,4343.9,Silver
+150,44,Male,109186,52,Mumbai,Electronics,1518.25,Silver
+151,26,Male,26540,93,Hyderabad,Home Decor,2391.64,Gold
+152,32,Male,117768,52,Mumbai,Home Decor,3135.01,Platinum
+153,32,Female,101958,36,Hyderabad,Home Decor,2114.83,Platinum
+154,43,Female,88878,38,Bangalore,Electronics,2194.68,Platinum
+155,59,Male,61846,50,Bangalore,Clothing,1718.39,Silver
+156,30,Male,121148,63,Bangalore,Books,2864.74,Platinum
+157,68,Female,95932,63,Bangalore,Home Decor,4267.82,Gold
+158,49,Male,37482,62,Delhi,Clothing,1087.49,Platinum
+159,56,Male,43411,99,Delhi,Groceries,4678.72,Gold
+160,66,Male,70975,7,Chennai,Home Decor,3476.53,Platinum
+161,69,Female,80545,27,Mumbai,Books,4134.04,Platinum
+162,49,Female,132302,92,Hyderabad,Groceries,2825.33,Gold
+163,21,Female,98797,86,Hyderabad,Groceries,3919.63,Platinum
+164,47,Female,72307,14,Delhi,Books,179.38,Platinum
+165,54,Female,23093,71,Hyderabad,Home Decor,4110.06,Platinum
+166,40,Male,97258,86,Delhi,Electronics,296.68,Silver
+167,56,Female,42042,5,Chennai,Books,4460.58,Gold
+168,62,Male,72930,55,Mumbai,Books,4960.62,Platinum
+169,32,Male,137584,2,Chennai,Books,1540.93,Gold
+170,60,Female,64413,62,Bangalore,Groceries,1130.56,Gold
+171,46,Female,133387,91,Bangalore,Clothing,3850.28,Gold
+172,53,Male,113623,21,Bangalore,Electronics,1339.83,Platinum
+173,30,Male,117883,79,Chennai,Home Decor,4341.26,Platinum
+174,49,Male,53756,21,Hyderabad,Home Decor,603.93,Gold
+175,24,Female,73268,10,Mumbai,Clothing,717.18,Silver
+176,68,Female,59214,87,Bangalore,Books,4897.84,Gold
+177,39,Female,101871,58,Bangalore,Electronics,3401.81,Silver
+178,45,Female,147844,39,Bangalore,Home Decor,4249.75,Gold
+179,19,Female,48602,5,Mumbai,Home Decor,1689.21,Gold
+180,59,Male,73331,65,Bangalore,Books,3414.77,Gold
+181,62,Female,68901,13,Mumbai,Clothing,3011.78,Platinum
+182,23,Male,119986,85,Bangalore,Electronics,3055.44,Silver
+183,45,Male,83416,90,Chennai,Clothing,3444.41,Silver
+184,45,Male,52196,85,Chennai,Clothing,2919.26,Gold
+185,61,Female,148386,53,Mumbai,Electronics,2202.41,Platinum
+186,61,Female,25626,82,Chennai,Electronics,1452.02,Platinum
+187,37,Female,27424,45,Mumbai,Home Decor,3866.05,Silver
+188,47,Male,32857,32,Chennai,Home Decor,1208.73,Platinum
+189,28,Male,130459,36,Chennai,Electronics,3492.54,Silver
+190,45,Male,135621,81,Mumbai,Groceries,1243.33,Silver
+191,42,Male,39982,99,Hyderabad,Home Decor,3164.12,Silver
+192,56,Male,96961,60,Chennai,Groceries,3760.68,Platinum
+193,50,Male,21980,11,Bangalore,Electronics,1171.7,Silver
+194,18,Female,68290,63,Hyderabad,Home Decor,393.72,Silver
+195,44,Female,46431,21,Mumbai,Clothing,741.77,Gold
+196,69,Female,104976,52,Hyderabad,Electronics,3069.39,Silver
+197,30,Female,127288,55,Delhi,Books,4262.29,Silver
+198,58,Male,102711,26,Delhi,Groceries,320.48,Gold
+199,20,Male,134187,68,Chennai,Electronics,3697.34,Gold
+200,56,Female,46385,34,Chennai,Electronics,1772.46,Platinum
+201,23,Male,58158,52,Bangalore,Home Decor,2444.79,Silver
+202,25,Female,43019,82,Hyderabad,Home Decor,4651.41,Platinum
+203,44,Female,38639,99,Delhi,Home Decor,1726.66,Platinum
+204,26,Female,105530,93,Chennai,Books,2380.15,Gold
+205,54,Male,119911,52,Hyderabad,Home Decor,167.04,Platinum
+206,50,Female,41563,29,Chennai,Electronics,499.83,Silver
+207,68,Female,59341,38,Chennai,Home Decor,1367.1,Gold
+208,59,Female,135672,42,Delhi,Clothing,236.48,Silver
+209,61,Male,25776,21,Delhi,Home Decor,3193.74,Silver
+210,41,Male,56444,42,Chennai,Books,2189.35,Gold
+211,32,Female,88916,13,Mumbai,Clothing,2785.91,Silver
+212,49,Male,28711,64,Chennai,Electronics,955.77,Gold
+213,49,Male,94318,17,Chennai,Electronics,1550.07,Silver
+214,41,Male,102970,9,Bangalore,Groceries,3352.74,Gold
+215,58,Male,132301,41,Bangalore,Clothing,4829.98,Platinum
+216,69,Male,105553,1,Bangalore,Groceries,347.04,Silver
+217,66,Male,50707,2,Mumbai,Clothing,4462.88,Gold
+218,66,Male,59110,60,Mumbai,Clothing,2926.72,Silver
+219,69,Male,149410,48,Chennai,Books,2863.21,Silver
+220,29,Male,81788,29,Bangalore,Groceries,2551.36,Silver
+221,56,Male,102879,97,Mumbai,Books,440.03,Gold
+222,19,Female,58827,10,Delhi,Clothing,540.4,Platinum
+223,20,Female,127188,58,Chennai,Electronics,3044.47,Platinum
+224,66,Male,25655,60,Hyderabad,Clothing,1770.7,Platinum
+225,54,Female,64859,21,Chennai,Books,4594.61,Gold
+226,66,Female,73625,28,Hyderabad,Groceries,2092.29,Platinum
+227,34,Male,72098,75,Bangalore,Groceries,802.08,Gold
+228,66,Male,35251,34,Hyderabad,Books,3602.12,Silver
+229,19,Male,142413,8,Bangalore,Groceries,1537.43,Silver
+230,19,Female,20526,59,Delhi,Home Decor,2674.8,Platinum
+231,45,Female,88760,86,Hyderabad,Electronics,3519.38,Gold
+232,40,Male,67837,72,Chennai,Electronics,4511.29,Silver
+233,54,Male,145133,49,Bangalore,Electronics,3981.74,Gold
+234,49,Male,149478,79,Chennai,Groceries,3414.17,Gold
+235,50,Female,31536,17,Mumbai,Groceries,3430.2,Silver
+236,18,Female,48541,60,Bangalore,Clothing,4735.03,Gold
+237,36,Female,99083,87,Hyderabad,Clothing,1549.54,Silver
+238,19,Female,71027,88,Bangalore,Electronics,105.45,Silver
+239,61,Male,54531,45,Chennai,Home Decor,1432.58,Silver
+240,43,Male,28712,83,Delhi,Clothing,1167.67,Gold
+241,49,Male,124101,69,Bangalore,Clothing,3342.99,Silver
+242,23,Male,85455,32,Hyderabad,Groceries,3205.19,Gold
+243,49,Female,94744,44,Mumbai,Home Decor,3007.96,Silver
+244,21,Female,141787,65,Delhi,Electronics,179.59,Silver
+245,28,Male,149749,87,Mumbai,Clothing,3671.01,Platinum
+246,34,Male,25109,8,Bangalore,Home Decor,1685.3,Platinum
+247,55,Female,141332,77,Chennai,Home Decor,3358.77,Platinum
+248,41,Male,69268,72,Chennai,Electronics,2827.23,Gold
+249,22,Female,120737,87,Hyderabad,Home Decor,1779.38,Gold
+250,69,Male,74615,43,Chennai,Home Decor,759.42,Silver
+251,51,Male,102503,1,Delhi,Home Decor,562.65,Silver
+252,23,Male,143274,51,Chennai,Clothing,4174.44,Silver
+253,39,Male,49759,24,Hyderabad,Electronics,4600.15,Silver
+254,28,Male,105708,99,Bangalore,Home Decor,3283.96,Gold
+255,65,Male,80112,24,Bangalore,Home Decor,606.83,Silver
+256,33,Male,122471,17,Chennai,Clothing,2069.93,Silver
+257,50,Female,146740,5,Mumbai,Electronics,3671.8,Platinum
+258,26,Female,143153,20,Bangalore,Groceries,3921.12,Silver
+259,23,Female,46589,21,Chennai,Clothing,679.27,Silver
+260,33,Female,50015,58,Hyderabad,Electronics,100.15,Silver
+261,46,Female,49009,31,Chennai,Home Decor,3589.47,Gold
+262,20,Male,103309,11,Bangalore,Electronics,1847.32,Platinum
+263,37,Male,146446,52,Hyderabad,Electronics,1346.96,Silver
+264,53,Female,82046,15,Chennai,Electronics,163.2,Silver
+265,36,Male,126661,83,Delhi,Groceries,2747.47,Platinum
+266,43,Female,46143,7,Hyderabad,Electronics,4270.64,Silver
+267,20,Female,26154,28,Delhi,Groceries,4792.4,Gold
+268,36,Male,41804,51,Mumbai,Home Decor,2872.15,Silver
+269,37,Male,61688,58,Hyderabad,Groceries,2620.86,Gold
+270,49,Male,84288,5,Delhi,Home Decor,516.78,Gold
+271,24,Female,71195,5,Bangalore,Home Decor,2789.48,Silver
+272,69,Male,40581,94,Bangalore,Groceries,1961.9,Platinum
+273,58,Female,72648,96,Mumbai,Clothing,3074.96,Gold
+274,50,Female,50087,8,Hyderabad,Books,2004.76,Platinum
+275,57,Female,69930,64,Hyderabad,Electronics,1277.47,Silver
+276,56,Male,52981,10,Hyderabad,Books,565.33,Gold
+277,35,Male,89298,38,Mumbai,Electronics,1643.1,Silver
+278,57,Female,66167,96,Hyderabad,Electronics,573.56,Platinum
+279,18,Male,95304,92,Bangalore,Home Decor,966.8,Silver
+280,28,Male,63408,81,Delhi,Electronics,4937.95,Silver
+281,45,Male,59499,95,Bangalore,Electronics,2276.11,Gold
+282,42,Female,145816,8,Bangalore,Groceries,2706.17,Silver
+283,67,Female,72269,25,Delhi,Books,4380.73,Silver
+284,40,Male,58559,73,Bangalore,Groceries,4978.29,Silver
+285,48,Female,134126,66,Mumbai,Electronics,2955.3,Gold
+286,47,Male,94319,79,Delhi,Home Decor,4081.12,Platinum
+287,59,Male,131925,50,Bangalore,Groceries,1702.01,Platinum
+288,52,Male,115317,67,Chennai,Groceries,1598.15,Silver
+289,24,Male,116347,49,Bangalore,Clothing,2073.25,Gold
+290,33,Female,68787,36,Mumbai,Electronics,3395.29,Silver
+291,43,Female,55488,68,Hyderabad,Home Decor,3442.74,Platinum
+292,65,Female,94441,78,Bangalore,Groceries,1644.67,Gold
+293,69,Male,94663,41,Hyderabad,Groceries,752.73,Platinum
+294,66,Male,42431,89,Chennai,Home Decor,3198.74,Platinum
+295,19,Male,81681,62,Bangalore,Electronics,728.8,Gold
+296,18,Female,83483,10,Delhi,Clothing,2934.61,Gold
+297,65,Male,142720,21,Hyderabad,Groceries,3497.77,Silver
+298,29,Female,69153,36,Chennai,Clothing,3533.0,Silver
+299,22,Female,26368,12,Delhi,Books,3792.01,Platinum
+300,54,Female,47424,91,Delhi,Electronics,4377.01,Gold
+301,49,Female,132360,2,Delhi,Books,2549.8,Gold
+302,26,Female,65004,13,Delhi,Books,3678.22,Silver
+303,58,Female,103869,53,Bangalore,Books,3133.95,Platinum
+304,52,Male,108652,32,Bangalore,Electronics,1014.54,Platinum
+305,36,Male,132755,95,Bangalore,Electronics,225.88,Silver
+306,65,Female,76985,16,Chennai,Home Decor,1494.25,Gold
+307,33,Female,70069,32,Chennai,Clothing,2270.87,Silver
+308,20,Male,72326,32,Chennai,Clothing,3123.82,Silver
+309,37,Female,128737,98,Mumbai,Home Decor,4264.8,Silver
+310,41,Female,101061,11,Chennai,Home Decor,1061.6,Silver
+311,50,Male,43398,10,Bangalore,Books,715.19,Gold
+312,41,Female,118393,15,Bangalore,Home Decor,4821.05,Silver
+313,69,Female,70861,17,Mumbai,Groceries,629.42,Gold
+314,28,Female,95897,40,Mumbai,Clothing,2444.61,Silver
+315,66,Male,101905,18,Chennai,Home Decor,2969.26,Platinum
+316,25,Male,147118,55,Hyderabad,Groceries,2752.73,Gold
+317,53,Male,88577,73,Mumbai,Groceries,521.56,Platinum
+318,55,Female,85641,25,Delhi,Groceries,379.43,Silver
+319,57,Female,29078,59,Bangalore,Groceries,616.87,Silver
+320,37,Male,45003,78,Delhi,Books,2969.38,Silver
+321,52,Female,82768,89,Bangalore,Groceries,2767.29,Gold
+322,65,Female,71047,22,Bangalore,Books,1245.33,Platinum
+323,42,Female,91626,30,Mumbai,Books,3225.09,Gold
+324,52,Female,77660,84,Mumbai,Groceries,4118.33,Gold
+325,42,Female,124386,85,Delhi,Clothing,303.74,Silver
+326,46,Male,69786,44,Bangalore,Groceries,2540.84,Platinum
+327,35,Female,21925,32,Delhi,Groceries,3477.62,Silver
+328,63,Male,103976,51,Hyderabad,Groceries,1336.33,Gold
+329,35,Female,125221,46,Delhi,Clothing,1608.08,Silver
+330,19,Male,137832,21,Chennai,Electronics,3106.83,Platinum
+331,52,Female,145150,99,Delhi,Electronics,4499.88,Silver
+332,33,Male,46015,32,Chennai,Books,4068.63,Platinum
+333,58,Female,53320,94,Chennai,Books,2957.34,Platinum
+334,53,Male,84881,39,Chennai,Clothing,3678.09,Silver
+335,50,Female,110827,12,Hyderabad,Home Decor,1887.63,Gold
+336,21,Male,140071,47,Delhi,Electronics,3240.73,Silver
+337,50,Female,122215,18,Delhi,Books,2384.29,Gold
+338,31,Male,46289,21,Hyderabad,Electronics,1030.69,Gold
+339,38,Male,148859,13,Bangalore,Clothing,3538.52,Silver
+340,65,Female,23389,21,Mumbai,Clothing,2826.68,Gold
+341,37,Female,45683,8,Delhi,Home Decor,1857.25,Gold
+342,25,Male,33629,46,Mumbai,Home Decor,4565.56,Silver
+343,24,Female,81550,7,Hyderabad,Clothing,202.58,Silver
+344,20,Male,44826,23,Bangalore,Books,1647.29,Silver
+345,34,Male,120734,96,Bangalore,Electronics,378.72,Gold
+346,50,Male,46630,75,Bangalore,Groceries,3855.98,Platinum
+347,65,Female,118762,86,Hyderabad,Home Decor,3540.33,Gold
+348,29,Male,66163,22,Chennai,Groceries,1723.63,Platinum
+349,68,Male,118511,89,Chennai,Books,3410.75,Silver
+350,39,Female,86435,22,Mumbai,Home Decor,2040.09,Platinum
+351,39,Female,31653,92,Chennai,Groceries,3805.64,Silver
+352,63,Female,47961,29,Chennai,Books,2325.5,Silver
+353,47,Female,101941,13,Bangalore,Electronics,2120.17,Platinum
+354,55,Male,94137,82,Bangalore,Books,4680.18,Silver
+355,55,Male,53662,2,Mumbai,Home Decor,1329.31,Platinum
+356,62,Male,118818,29,Delhi,Clothing,690.19,Silver
+357,68,Male,76446,85,Mumbai,Electronics,2964.26,Gold
+358,25,Female,41288,79,Mumbai,Groceries,4849.68,Gold
+359,44,Male,142555,52,Hyderabad,Home Decor,1951.41,Silver
+360,44,Male,115081,27,Hyderabad,Clothing,403.98,Silver
+361,51,Female,56877,50,Mumbai,Books,1762.6,Platinum
+362,38,Male,131562,95,Mumbai,Clothing,2579.07,Gold
+363,47,Male,35313,79,Mumbai,Home Decor,893.42,Platinum
+364,50,Male,100885,23,Chennai,Home Decor,3324.7,Silver
+365,45,Male,92715,88,Hyderabad,Clothing,4988.97,Silver
+366,64,Male,30326,44,Mumbai,Books,2313.52,Platinum
+367,50,Male,130091,77,Bangalore,Clothing,1838.17,Silver
+368,22,Female,145836,22,Bangalore,Home Decor,2063.45,Gold
+369,65,Female,21560,43,Chennai,Home Decor,664.22,Platinum
+370,36,Male,99148,37,Chennai,Groceries,4428.04,Gold
+371,21,Male,103186,61,Delhi,Groceries,2132.65,Gold
+372,52,Female,46745,97,Delhi,Electronics,1997.64,Gold
+373,66,Male,51890,56,Delhi,Home Decor,3332.48,Platinum
+374,34,Male,40022,3,Chennai,Groceries,2265.96,Silver
+375,61,Male,143629,63,Chennai,Clothing,3276.34,Gold
+376,45,Female,72579,19,Chennai,Books,401.09,Gold
+377,47,Male,90316,23,Bangalore,Clothing,4087.24,Gold
+378,46,Female,103847,29,Chennai,Books,4708.47,Silver
+379,63,Male,48380,30,Bangalore,Groceries,3278.95,Silver
+380,23,Female,130198,39,Delhi,Electronics,4777.37,Platinum
+381,52,Female,22356,25,Delhi,Clothing,842.02,Silver
+382,58,Male,90326,8,Delhi,Clothing,2439.34,Platinum
+383,54,Female,112447,58,Mumbai,Clothing,3048.85,Platinum
+384,41,Male,134994,16,Mumbai,Books,2950.51,Platinum
+385,46,Female,109899,72,Hyderabad,Groceries,2067.16,Platinum
+386,66,Male,40049,1,Hyderabad,Clothing,1756.61,Platinum
+387,63,Male,95717,5,Hyderabad,Clothing,721.44,Gold
+388,48,Female,125361,3,Mumbai,Electronics,2019.54,Silver
+389,52,Male,36082,65,Mumbai,Electronics,897.04,Gold
+390,50,Male,20661,4,Hyderabad,Groceries,3698.39,Platinum
+391,69,Female,57412,99,Hyderabad,Groceries,1123.27,Silver
+392,38,Male,134015,96,Chennai,Home Decor,386.97,Gold
+393,49,Male,143191,64,Hyderabad,Electronics,2806.59,Gold
+394,40,Female,22920,98,Chennai,Home Decor,3016.63,Platinum
+395,50,Female,111194,89,Bangalore,Books,4372.37,Gold
+396,20,Male,134306,10,Mumbai,Home Decor,2927.21,Gold
+397,35,Male,80315,21,Hyderabad,Clothing,1792.86,Gold
+398,42,Female,99561,46,Mumbai,Home Decor,4034.76,Gold
+399,59,Female,28946,91,Mumbai,Groceries,2747.37,Gold
+400,48,Male,114242,27,Mumbai,Books,488.47,Platinum
+401,20,Female,65500,66,Bangalore,Clothing,2872.67,Platinum
+402,57,Male,124540,41,Delhi,Home Decor,4549.29,Gold
+403,63,Male,36309,13,Hyderabad,Books,2041.93,Platinum
+404,41,Male,75230,9,Delhi,Books,1552.0,Platinum
+405,67,Male,131822,36,Delhi,Clothing,803.0,Silver
+406,49,Male,118656,86,Delhi,Home Decor,842.08,Gold
+407,64,Female,143782,90,Mumbai,Books,2220.58,Platinum
+408,39,Female,50027,58,Chennai,Books,3018.83,Platinum
+409,40,Female,146768,54,Mumbai,Electronics,495.02,Gold
+410,19,Female,92541,12,Mumbai,Books,4703.89,Silver
+411,44,Male,132340,81,Delhi,Electronics,3800.15,Gold
+412,59,Male,134846,78,Mumbai,Home Decor,2974.46,Silver
+413,19,Male,79321,14,Delhi,Home Decor,4159.35,Gold
+414,43,Male,20956,34,Chennai,Home Decor,492.92,Gold
+415,34,Female,120375,53,Hyderabad,Groceries,2436.51,Gold
+416,57,Male,94131,20,Delhi,Home Decor,3187.46,Gold
+417,50,Male,67908,75,Chennai,Books,4160.4,Silver
+418,26,Female,98339,16,Hyderabad,Clothing,3939.0,Silver
+419,60,Female,145659,95,Bangalore,Electronics,1457.64,Platinum
+420,65,Female,45963,70,Delhi,Groceries,4710.31,Gold
+421,56,Female,121757,56,Delhi,Home Decor,709.29,Silver
+422,46,Male,59443,83,Bangalore,Home Decor,4388.15,Silver
+423,59,Male,119259,58,Bangalore,Clothing,4857.61,Silver
+424,43,Female,59063,4,Delhi,Clothing,968.05,Gold
+425,52,Male,134225,4,Bangalore,Groceries,3638.12,Platinum
+426,67,Male,136400,20,Mumbai,Electronics,297.4,Silver
+427,42,Male,100818,10,Hyderabad,Home Decor,2086.57,Gold
+428,41,Female,24703,24,Hyderabad,Groceries,2629.79,Silver
+429,30,Male,85128,99,Hyderabad,Books,2945.16,Silver
+430,24,Female,92099,26,Mumbai,Books,4686.09,Platinum
+431,53,Male,45849,37,Bangalore,Groceries,3394.03,Silver
+432,62,Male,51860,85,Chennai,Home Decor,2458.26,Silver
+433,37,Male,51585,54,Bangalore,Groceries,4067.41,Gold
+434,18,Female,42015,21,Delhi,Home Decor,4757.61,Gold
+435,25,Male,97539,74,Hyderabad,Clothing,208.12,Platinum
+436,63,Female,63585,38,Bangalore,Groceries,4914.35,Gold
+437,33,Female,46958,46,Chennai,Home Decor,522.05,Gold
+438,31,Female,46017,4,Delhi,Groceries,4090.5,Platinum
+439,29,Male,96707,60,Mumbai,Groceries,1473.64,Silver
+440,68,Male,144677,57,Mumbai,Home Decor,747.68,Platinum
+441,40,Male,65350,45,Chennai,Home Decor,2255.29,Gold
+442,32,Male,32201,20,Delhi,Electronics,3255.39,Platinum
+443,45,Female,49426,17,Hyderabad,Groceries,1966.66,Silver
+444,51,Female,37778,71,Bangalore,Books,367.37,Platinum
+445,19,Female,65241,4,Delhi,Groceries,3037.36,Gold
+446,49,Male,62229,93,Mumbai,Groceries,4521.78,Gold
+447,40,Female,106652,14,Chennai,Home Decor,1977.76,Platinum
+448,39,Male,148267,3,Chennai,Groceries,1160.03,Silver
+449,68,Female,138402,88,Bangalore,Groceries,2268.63,Platinum
+450,42,Male,68364,80,Chennai,Books,336.98,Silver
+451,39,Male,118833,58,Chennai,Home Decor,4120.39,Silver
+452,39,Female,146503,55,Delhi,Groceries,4149.07,Platinum
+453,66,Female,149044,4,Hyderabad,Clothing,2981.2,Silver
+454,69,Female,104878,24,Bangalore,Electronics,1830.2,Gold
+455,59,Female,77056,34,Delhi,Books,4018.94,Platinum
+456,23,Male,47490,30,Hyderabad,Groceries,2817.97,Silver
+457,32,Female,147769,82,Delhi,Clothing,4147.07,Gold
+458,60,Female,39975,19,Delhi,Groceries,3194.15,Platinum
+459,54,Female,46723,31,Chennai,Groceries,3943.59,Gold
+460,50,Male,43279,60,Hyderabad,Home Decor,3032.96,Gold
+461,25,Male,98301,60,Bangalore,Home Decor,2129.29,Gold
+462,61,Female,132214,19,Bangalore,Home Decor,4793.93,Silver
+463,61,Male,31561,49,Hyderabad,Clothing,2751.46,Platinum
+464,22,Female,127435,63,Chennai,Groceries,3064.94,Platinum
+465,56,Male,86061,83,Mumbai,Electronics,1180.39,Silver
+466,21,Male,108397,22,Delhi,Books,3165.69,Platinum
+467,23,Male,69153,24,Chennai,Home Decor,2900.88,Gold
+468,62,Male,53142,76,Hyderabad,Home Decor,1005.71,Platinum
+469,49,Female,46916,30,Delhi,Groceries,391.98,Silver
+470,69,Female,84324,58,Bangalore,Groceries,3061.36,Gold
+471,47,Female,64965,31,Mumbai,Clothing,3842.09,Silver
+472,64,Male,145932,64,Bangalore,Clothing,2664.67,Gold
+473,52,Female,24648,19,Hyderabad,Home Decor,1211.19,Gold
+474,57,Female,55133,48,Delhi,Groceries,3365.96,Platinum
+475,69,Female,70677,45,Hyderabad,Electronics,492.52,Gold
+476,33,Male,116059,94,Delhi,Books,2264.99,Silver
+477,30,Male,114588,55,Chennai,Groceries,900.5,Platinum
+478,67,Male,119950,55,Mumbai,Groceries,1003.85,Silver
+479,59,Female,118317,97,Chennai,Clothing,1091.24,Gold
+480,47,Female,90135,18,Chennai,Books,1994.86,Silver
+481,36,Female,55046,63,Hyderabad,Home Decor,350.64,Silver
+482,34,Male,67064,92,Mumbai,Groceries,2049.19,Gold
+483,36,Male,121459,47,Delhi,Home Decor,2607.37,Platinum
+484,45,Female,126625,75,Delhi,Groceries,2468.14,Silver
+485,43,Male,89350,57,Bangalore,Home Decor,1975.64,Gold
+486,54,Male,65893,45,Delhi,Books,4211.82,Platinum
+487,43,Male,121520,33,Hyderabad,Clothing,812.1,Platinum
+488,40,Male,145818,17,Chennai,Books,2577.91,Platinum
+489,26,Female,81272,70,Chennai,Electronics,404.0,Silver
+490,29,Male,112152,4,Chennai,Clothing,448.66,Silver
+491,18,Male,142907,20,Mumbai,Books,2911.94,Silver
+492,18,Male,87649,47,Delhi,Electronics,2873.49,Platinum
+493,64,Male,84674,91,Hyderabad,Groceries,4402.36,Silver
+494,51,Female,144132,15,Mumbai,Groceries,2833.58,Gold
+495,49,Female,139044,70,Bangalore,Home Decor,4802.98,Silver
+496,65,Male,128542,47,Hyderabad,Clothing,338.6,Silver
+497,42,Male,33760,78,Hyderabad,Groceries,580.24,Platinum
+498,57,Male,41927,75,Hyderabad,Clothing,315.92,Silver
+499,62,Male,106475,9,Chennai,Groceries,1007.86,Gold
+500,18,Male,81367,90,Hyderabad,Home Decor,2752.22,Platinum
+501,33,Male,117955,16,Delhi,Books,3263.3,Gold
+502,56,Female,32588,69,Hyderabad,Home Decor,323.37,Platinum
+503,22,Male,141750,61,Chennai,Electronics,4735.26,Platinum
+504,39,Female,121678,10,Hyderabad,Groceries,4226.61,Silver
+505,46,Female,124734,50,Bangalore,Electronics,1553.4,Gold
+506,20,Male,138154,3,Bangalore,Electronics,478.22,Platinum
+507,29,Female,72233,77,Chennai,Clothing,932.45,Silver
+508,43,Female,64738,94,Delhi,Groceries,722.03,Platinum
+509,33,Female,53397,70,Delhi,Electronics,704.09,Platinum
+510,68,Female,102189,81,Mumbai,Books,2640.95,Platinum
+511,54,Female,96367,51,Chennai,Electronics,1304.65,Platinum
+512,39,Female,144873,19,Hyderabad,Books,1854.88,Platinum
+513,46,Male,91260,42,Chennai,Clothing,4948.58,Platinum
+514,31,Female,140585,35,Mumbai,Electronics,3453.14,Silver
+515,45,Female,96619,46,Chennai,Home Decor,4750.01,Platinum
+516,22,Female,131453,26,Chennai,Clothing,798.53,Gold
+517,64,Male,39816,69,Mumbai,Books,1972.48,Silver
+518,66,Female,62240,93,Delhi,Clothing,2818.19,Gold
+519,47,Male,26276,64,Hyderabad,Electronics,476.11,Platinum
+520,63,Female,133939,37,Mumbai,Groceries,120.52,Gold
+521,69,Male,124199,84,Bangalore,Groceries,3385.13,Platinum
+522,22,Male,99530,49,Delhi,Books,3244.92,Platinum
+523,29,Female,43499,21,Bangalore,Books,2112.87,Silver
+524,33,Female,108576,74,Delhi,Groceries,2499.26,Silver
+525,43,Male,128856,64,Hyderabad,Books,2135.67,Platinum
+526,43,Female,102495,5,Hyderabad,Clothing,217.62,Silver
+527,65,Male,141717,70,Chennai,Home Decor,1743.32,Gold
+528,38,Male,91635,90,Bangalore,Home Decor,967.7,Silver
+529,56,Male,127803,4,Delhi,Clothing,582.28,Silver
+530,53,Male,105112,39,Hyderabad,Home Decor,4787.93,Gold
+531,50,Male,55946,35,Mumbai,Electronics,3036.86,Silver
+532,47,Female,75204,1,Hyderabad,Clothing,3670.42,Platinum
+533,54,Male,71886,24,Mumbai,Books,1645.28,Gold
+534,40,Male,91652,57,Delhi,Clothing,2026.42,Platinum
+535,27,Female,35563,70,Hyderabad,Groceries,1260.93,Gold
+536,22,Male,112324,41,Hyderabad,Books,575.13,Platinum
+537,53,Female,112464,54,Delhi,Groceries,977.26,Platinum
+538,51,Female,121872,46,Hyderabad,Books,4007.82,Silver
+539,69,Female,29847,60,Mumbai,Home Decor,3419.97,Platinum
+540,48,Male,46155,60,Hyderabad,Clothing,2779.95,Silver
+541,27,Male,99671,57,Bangalore,Electronics,2427.94,Gold
+542,36,Male,136891,31,Chennai,Books,4619.93,Platinum
+543,49,Female,103310,84,Mumbai,Books,456.4,Platinum
+544,18,Male,87278,24,Bangalore,Groceries,1474.94,Gold
+545,22,Female,38309,89,Delhi,Home Decor,1814.7,Gold
+546,62,Male,20619,36,Mumbai,Groceries,3933.89,Platinum
+547,21,Female,103194,85,Chennai,Groceries,4963.32,Gold
+548,33,Male,70108,30,Chennai,Home Decor,1279.29,Silver
+549,41,Male,54707,24,Delhi,Electronics,4384.11,Gold
+550,33,Male,40337,30,Delhi,Groceries,4170.05,Gold
+551,19,Female,145261,86,Mumbai,Groceries,1200.82,Platinum
+552,66,Female,101537,92,Hyderabad,Books,2056.73,Silver
+553,45,Male,86504,7,Delhi,Home Decor,2107.4,Gold
+554,49,Male,67614,35,Hyderabad,Clothing,4893.28,Silver
+555,44,Female,111428,55,Bangalore,Electronics,986.37,Silver
+556,37,Female,111155,92,Chennai,Electronics,4015.87,Silver
+557,41,Female,20281,14,Hyderabad,Home Decor,1737.54,Platinum
+558,29,Male,47420,10,Chennai,Books,3681.26,Gold
+559,67,Female,100896,80,Hyderabad,Books,2158.05,Platinum
+560,52,Male,59030,16,Bangalore,Home Decor,2933.96,Gold
+561,50,Female,21058,54,Delhi,Books,4179.8,Gold
+562,50,Male,106213,95,Bangalore,Electronics,4040.41,Platinum
+563,68,Female,96260,89,Delhi,Electronics,4345.47,Silver
+564,60,Female,48404,77,Delhi,Clothing,392.12,Silver
+565,54,Female,123482,70,Chennai,Home Decor,3491.05,Gold
+566,29,Female,125284,44,Bangalore,Groceries,785.94,Platinum
+567,20,Female,49856,73,Hyderabad,Groceries,2137.51,Silver
+568,18,Male,29200,45,Bangalore,Clothing,2788.08,Silver
+569,50,Female,84178,56,Chennai,Clothing,2073.42,Gold
+570,57,Female,53997,84,Delhi,Books,2646.1,Gold
+571,27,Female,45611,82,Chennai,Clothing,4982.98,Platinum
+572,60,Male,139273,57,Mumbai,Clothing,762.56,Gold
+573,61,Female,61235,21,Mumbai,Groceries,3409.73,Silver
+574,46,Male,137428,68,Hyderabad,Books,2040.4,Silver
+575,30,Female,55057,50,Chennai,Clothing,751.75,Silver
+576,29,Female,21239,33,Hyderabad,Clothing,877.81,Silver
+577,48,Male,123674,91,Hyderabad,Books,4751.44,Platinum
+578,63,Female,134474,7,Mumbai,Home Decor,4410.05,Platinum
+579,19,Male,85661,70,Hyderabad,Books,4544.51,Gold
+580,68,Male,146945,15,Mumbai,Groceries,4958.51,Gold
+581,67,Female,65272,82,Delhi,Home Decor,1120.75,Gold
+582,52,Male,109393,32,Chennai,Electronics,1841.65,Platinum
+583,40,Female,81212,75,Hyderabad,Books,3379.17,Silver
+584,34,Female,144088,20,Mumbai,Groceries,2470.63,Gold
+585,43,Male,35398,88,Bangalore,Home Decor,2150.11,Silver
+586,25,Male,140030,15,Hyderabad,Books,1853.28,Gold
+587,46,Male,76503,48,Delhi,Clothing,3009.53,Gold
+588,43,Male,26638,71,Delhi,Books,2920.41,Gold
+589,27,Female,26570,21,Bangalore,Electronics,891.14,Gold
+590,43,Female,88785,42,Mumbai,Books,2411.53,Gold
+591,51,Male,29110,26,Hyderabad,Home Decor,2812.01,Silver
+592,68,Female,125899,14,Mumbai,Home Decor,2894.41,Gold
+593,58,Female,99141,57,Delhi,Books,1129.53,Silver
+594,24,Female,32115,37,Mumbai,Home Decor,3737.13,Platinum
+595,21,Female,59062,58,Delhi,Clothing,223.48,Gold
+596,67,Male,42911,21,Mumbai,Books,1838.68,Silver
+597,62,Male,124061,82,Bangalore,Clothing,3923.04,Platinum
+598,28,Female,52556,69,Chennai,Clothing,2863.08,Platinum
+599,46,Male,98131,3,Bangalore,Groceries,1379.7,Platinum
+600,53,Male,148335,87,Bangalore,Books,3505.27,Silver
+601,42,Male,21969,90,Chennai,Home Decor,2880.22,Gold
+602,38,Female,63753,37,Chennai,Clothing,4001.59,Gold
+603,53,Female,102811,88,Hyderabad,Groceries,3701.62,Silver
+604,27,Female,24470,49,Hyderabad,Books,3089.53,Gold
+605,54,Male,141863,19,Bangalore,Books,2492.07,Silver
+606,26,Female,30225,89,Bangalore,Electronics,752.59,Gold
+607,41,Female,127860,85,Delhi,Electronics,1380.53,Platinum
+608,52,Male,143008,12,Delhi,Clothing,2153.59,Gold
+609,66,Female,127510,61,Hyderabad,Electronics,3036.57,Silver
+610,52,Female,128295,41,Hyderabad,Clothing,2617.17,Silver
+611,65,Male,43196,33,Delhi,Home Decor,1512.1,Platinum
+612,53,Male,125823,50,Delhi,Clothing,131.68,Silver
+613,35,Male,33669,68,Mumbai,Electronics,2531.57,Gold
+614,66,Female,57380,71,Mumbai,Home Decor,1499.57,Gold
+615,56,Female,144398,86,Delhi,Electronics,3699.58,Platinum
+616,49,Female,130677,33,Mumbai,Clothing,217.34,Silver
+617,41,Male,135886,81,Chennai,Groceries,2965.66,Platinum
+618,40,Male,146753,24,Hyderabad,Books,4713.22,Gold
+619,49,Female,68320,61,Hyderabad,Electronics,954.61,Platinum
+620,54,Female,67414,61,Delhi,Clothing,2411.08,Silver
+621,29,Male,123542,98,Bangalore,Home Decor,547.97,Platinum
+622,66,Male,35577,28,Delhi,Electronics,3165.84,Silver
+623,30,Male,145354,58,Mumbai,Electronics,2797.61,Silver
+624,40,Male,108009,43,Bangalore,Books,2096.09,Gold
+625,42,Female,146365,41,Mumbai,Clothing,2654.75,Gold
+626,52,Male,75409,39,Chennai,Groceries,4493.22,Gold
+627,58,Female,48625,86,Mumbai,Home Decor,1061.84,Silver
+628,47,Female,101040,49,Chennai,Clothing,210.57,Platinum
+629,34,Female,44089,17,Chennai,Home Decor,4322.16,Silver
+630,66,Male,56487,98,Mumbai,Electronics,2927.87,Gold
+631,37,Male,85838,70,Mumbai,Books,4464.23,Gold
+632,65,Male,116999,70,Chennai,Books,3025.03,Platinum
+633,42,Male,130448,98,Bangalore,Groceries,4069.79,Gold
+634,39,Female,114795,65,Chennai,Books,2205.4,Gold
+635,30,Male,70138,74,Hyderabad,Electronics,3774.31,Gold
+636,36,Male,62823,85,Chennai,Groceries,4573.9,Platinum
+637,66,Female,57208,5,Bangalore,Clothing,2903.4,Silver
+638,53,Male,74061,2,Hyderabad,Books,985.85,Gold
+639,29,Female,50659,22,Delhi,Groceries,1417.11,Platinum
+640,58,Female,149824,57,Delhi,Electronics,1073.36,Gold
+641,36,Female,121376,66,Bangalore,Home Decor,1309.6,Platinum
+642,29,Female,51890,74,Chennai,Home Decor,1601.44,Gold
+643,26,Female,99134,98,Mumbai,Electronics,2820.16,Platinum
+644,24,Female,67055,16,Bangalore,Electronics,2981.16,Gold
+645,45,Female,132269,51,Hyderabad,Home Decor,2189.85,Silver
+646,31,Female,39508,39,Hyderabad,Groceries,3115.56,Gold
+647,48,Male,62287,86,Delhi,Home Decor,499.72,Platinum
+648,69,Male,98916,76,Hyderabad,Electronics,530.16,Gold
+649,36,Male,46984,88,Bangalore,Books,941.96,Silver
+650,64,Male,130169,40,Hyderabad,Clothing,2638.58,Gold
+651,33,Female,28125,38,Bangalore,Books,1148.57,Platinum
+652,22,Male,56059,60,Mumbai,Books,1488.09,Platinum
+653,52,Female,89569,59,Delhi,Electronics,2061.53,Silver
+654,29,Male,123409,10,Hyderabad,Home Decor,4078.14,Platinum
+655,42,Male,37087,99,Bangalore,Groceries,167.92,Gold
+656,69,Male,126437,64,Chennai,Books,3281.96,Gold
+657,38,Female,135262,63,Delhi,Home Decor,3377.5,Gold
+658,53,Male,25704,49,Mumbai,Groceries,4013.41,Platinum
+659,40,Female,80576,64,Bangalore,Books,4670.49,Gold
+660,33,Female,93384,32,Mumbai,Groceries,198.68,Gold
+661,56,Male,107128,7,Mumbai,Home Decor,853.54,Gold
+662,62,Male,131279,21,Hyderabad,Clothing,4442.24,Silver
+663,59,Male,92460,20,Hyderabad,Home Decor,2346.74,Platinum
+664,56,Female,47208,26,Bangalore,Electronics,2866.49,Platinum
+665,31,Male,138516,68,Chennai,Groceries,3348.83,Platinum
+666,48,Female,149612,86,Bangalore,Clothing,3427.43,Silver
+667,22,Female,105150,15,Chennai,Groceries,4665.53,Platinum
+668,52,Male,86024,85,Mumbai,Groceries,4985.05,Silver
+669,40,Male,59882,79,Delhi,Books,3628.77,Silver
+670,46,Female,45923,86,Bangalore,Electronics,1507.38,Platinum
+671,60,Female,146561,92,Bangalore,Groceries,4410.79,Gold
+672,28,Female,134044,14,Chennai,Home Decor,341.18,Gold
+673,35,Male,121477,27,Mumbai,Home Decor,1232.3,Platinum
+674,64,Female,49165,40,Mumbai,Books,4497.19,Platinum
+675,29,Male,87203,58,Chennai,Electronics,1355.34,Silver
+676,26,Female,111749,28,Mumbai,Electronics,1181.19,Platinum
+677,27,Female,24114,26,Hyderabad,Home Decor,776.81,Silver
+678,61,Male,84965,63,Delhi,Clothing,4309.65,Platinum
+679,34,Female,56321,66,Bangalore,Books,2550.29,Gold
+680,55,Male,93297,25,Delhi,Books,3406.98,Gold
+681,24,Male,116652,3,Bangalore,Home Decor,1271.43,Platinum
+682,63,Female,119304,72,Hyderabad,Home Decor,3814.4,Silver
+683,30,Male,133942,44,Mumbai,Clothing,3824.03,Gold
+684,57,Male,45426,97,Chennai,Clothing,1631.73,Silver
+685,59,Female,37772,42,Hyderabad,Electronics,2112.34,Platinum
+686,26,Male,123754,99,Delhi,Books,1127.48,Platinum
+687,67,Male,23712,6,Chennai,Books,4885.15,Gold
+688,44,Male,21367,39,Mumbai,Home Decor,3263.45,Platinum
+689,19,Female,126493,52,Hyderabad,Electronics,4679.27,Gold
+690,22,Male,127317,23,Chennai,Books,1586.59,Silver
+691,46,Female,135142,89,Hyderabad,Electronics,3931.27,Gold
+692,54,Female,111736,50,Hyderabad,Electronics,3852.71,Gold
+693,55,Male,71924,43,Mumbai,Home Decor,3489.11,Silver
+694,36,Male,23726,19,Bangalore,Electronics,4831.63,Gold
+695,25,Male,109152,69,Chennai,Clothing,2028.42,Gold
+696,65,Female,47723,51,Mumbai,Clothing,740.51,Platinum
+697,62,Male,146969,11,Hyderabad,Groceries,3391.37,Silver
+698,18,Male,123110,12,Mumbai,Home Decor,3673.62,Gold
+699,39,Male,120494,74,Bangalore,Groceries,2917.8,Silver
+700,69,Male,29108,8,Chennai,Clothing,1113.41,Silver
+701,34,Male,97714,24,Bangalore,Groceries,2571.83,Gold
+702,24,Female,55643,92,Delhi,Home Decor,1629.73,Platinum
+703,42,Female,51324,41,Chennai,Home Decor,2194.59,Silver
+704,62,Male,123896,36,Bangalore,Electronics,3261.57,Gold
+705,21,Male,103360,85,Hyderabad,Books,3751.55,Silver
+706,53,Male,130896,72,Chennai,Electronics,1237.9,Platinum
+707,23,Male,28927,55,Chennai,Home Decor,2086.09,Platinum
+708,48,Female,113680,9,Mumbai,Clothing,1418.89,Platinum
+709,36,Male,116546,47,Hyderabad,Clothing,1073.29,Gold
+710,61,Female,42443,15,Delhi,Electronics,3938.6,Gold
+711,56,Female,99973,48,Bangalore,Home Decor,4555.34,Platinum
+712,44,Male,83449,82,Mumbai,Clothing,1914.14,Gold
+713,27,Female,129834,42,Bangalore,Home Decor,3781.27,Platinum
+714,43,Female,125314,60,Delhi,Clothing,4495.28,Gold
+715,36,Female,96743,84,Delhi,Home Decor,4246.01,Platinum
+716,56,Female,141805,70,Chennai,Groceries,995.79,Silver
+717,20,Male,80233,12,Delhi,Home Decor,4785.83,Platinum
+718,62,Male,45537,2,Bangalore,Home Decor,1945.71,Platinum
+719,30,Female,121293,7,Hyderabad,Electronics,1762.28,Gold
+720,67,Male,97576,80,Hyderabad,Groceries,405.91,Gold
+721,45,Male,127522,3,Chennai,Books,2482.25,Gold
+722,37,Male,42612,3,Bangalore,Electronics,634.17,Gold
+723,45,Male,113977,27,Bangalore,Books,1317.85,Gold
+724,25,Male,26471,40,Delhi,Clothing,1653.02,Gold
+725,58,Female,55631,33,Bangalore,Books,4063.25,Silver
+726,56,Male,148449,92,Mumbai,Home Decor,4389.89,Platinum
+727,18,Male,128997,1,Delhi,Books,1582.08,Platinum
+728,20,Male,112059,8,Mumbai,Electronics,4307.62,Platinum
+729,30,Male,51348,32,Chennai,Electronics,4300.43,Silver
+730,45,Female,84732,48,Hyderabad,Books,3846.79,Platinum
+731,66,Female,21177,4,Chennai,Electronics,818.81,Silver
+732,42,Female,24760,94,Hyderabad,Electronics,3482.58,Silver
+733,50,Female,52779,70,Chennai,Books,4730.62,Silver
+734,55,Male,41636,19,Bangalore,Groceries,3444.45,Platinum
+735,23,Female,101889,32,Mumbai,Groceries,1724.92,Silver
+736,61,Male,73551,9,Hyderabad,Clothing,2552.84,Platinum
+737,62,Male,31556,12,Delhi,Electronics,3264.05,Platinum
+738,49,Male,47598,11,Mumbai,Books,2601.8,Gold
+739,62,Male,31563,46,Delhi,Electronics,687.77,Gold
+740,64,Male,66819,16,Mumbai,Home Decor,1629.11,Silver
+741,38,Female,129326,1,Mumbai,Electronics,4031.74,Silver
+742,33,Female,93770,63,Chennai,Electronics,4320.95,Platinum
+743,38,Female,111055,21,Hyderabad,Groceries,772.77,Silver
+744,28,Female,46966,30,Hyderabad,Books,4766.7,Silver
+745,54,Male,140133,13,Mumbai,Electronics,1711.23,Platinum
+746,53,Female,101709,34,Bangalore,Groceries,3345.34,Silver
+747,52,Male,79889,4,Bangalore,Clothing,3783.94,Silver
+748,36,Female,46987,28,Delhi,Groceries,4078.54,Platinum
+749,37,Male,98714,95,Delhi,Groceries,4734.17,Platinum
+750,35,Male,124874,59,Chennai,Groceries,1633.31,Gold
+751,64,Female,78348,27,Mumbai,Electronics,4306.68,Platinum
+752,58,Male,44596,69,Delhi,Electronics,745.27,Gold
+753,66,Male,53174,25,Delhi,Clothing,3554.7,Silver
+754,31,Female,84106,3,Mumbai,Home Decor,3735.69,Platinum
+755,32,Male,127510,97,Chennai,Home Decor,3420.84,Platinum
+756,48,Female,89967,68,Delhi,Home Decor,1336.34,Platinum
+757,18,Female,79182,25,Chennai,Clothing,4377.91,Silver
+758,20,Female,113300,20,Hyderabad,Home Decor,927.41,Gold
+759,33,Male,107163,34,Chennai,Home Decor,362.81,Silver
+760,40,Male,59310,26,Bangalore,Groceries,3615.58,Silver
+761,28,Male,76088,5,Bangalore,Electronics,2429.83,Platinum
+762,29,Female,148803,99,Chennai,Electronics,4260.58,Gold
+763,27,Male,28906,61,Bangalore,Groceries,1978.65,Silver
+764,49,Female,56914,92,Hyderabad,Groceries,924.57,Platinum
+765,33,Female,130350,93,Mumbai,Groceries,4198.57,Silver
+766,25,Male,65379,9,Bangalore,Electronics,2789.66,Silver
+767,55,Female,98612,50,Bangalore,Home Decor,1027.06,Platinum
+768,29,Male,134828,6,Chennai,Groceries,3629.88,Platinum
+769,41,Male,147445,83,Hyderabad,Clothing,2604.46,Gold
+770,45,Male,57650,60,Mumbai,Groceries,3061.13,Silver
+771,25,Male,66881,44,Chennai,Books,2358.4,Platinum
+772,45,Male,66413,11,Chennai,Groceries,4160.67,Platinum
+773,53,Female,26012,66,Hyderabad,Electronics,4164.86,Gold
+774,43,Female,70115,47,Mumbai,Groceries,3576.01,Gold
+775,25,Female,27151,73,Hyderabad,Books,616.47,Platinum
+776,67,Male,77716,85,Mumbai,Clothing,4210.38,Gold
+777,45,Male,113747,88,Hyderabad,Home Decor,3387.96,Platinum
+778,45,Male,112653,98,Chennai,Groceries,3515.42,Silver
+779,54,Female,56378,86,Chennai,Books,1878.62,Gold
+780,58,Male,62652,3,Delhi,Books,4408.47,Silver
+781,53,Female,92430,76,Bangalore,Clothing,3654.32,Silver
+782,44,Female,33467,92,Hyderabad,Electronics,651.69,Silver
+783,34,Male,51010,30,Delhi,Groceries,2098.11,Platinum
+784,26,Male,148647,90,Bangalore,Books,4443.26,Silver
+785,50,Female,141999,21,Hyderabad,Clothing,331.26,Silver
+786,37,Male,134793,28,Mumbai,Home Decor,4810.94,Silver
+787,30,Female,74691,90,Bangalore,Books,3427.9,Platinum
+788,45,Male,84157,62,Chennai,Clothing,3193.74,Silver
+789,65,Male,128177,33,Delhi,Electronics,1425.74,Silver
+790,46,Female,32289,85,Bangalore,Electronics,1319.08,Gold
+791,30,Male,64976,35,Bangalore,Books,4716.09,Platinum
+792,63,Female,63596,52,Chennai,Books,1561.54,Silver
+793,52,Male,43171,34,Hyderabad,Groceries,3899.98,Gold
+794,23,Female,120441,41,Mumbai,Clothing,2026.3,Platinum
+795,35,Female,146296,51,Chennai,Books,782.34,Platinum
+796,68,Male,106365,47,Mumbai,Groceries,152.5,Platinum
+797,22,Female,138218,82,Hyderabad,Groceries,2766.86,Platinum
+798,64,Male,119590,58,Bangalore,Books,4881.32,Platinum
+799,42,Male,134014,75,Mumbai,Electronics,1908.77,Platinum
+800,19,Male,64139,57,Delhi,Clothing,1850.24,Silver
+801,27,Female,68713,23,Delhi,Clothing,1786.05,Silver
+802,47,Female,49734,48,Chennai,Electronics,2650.66,Silver
+803,67,Male,92588,22,Hyderabad,Books,2259.26,Silver
+804,62,Male,83646,17,Chennai,Clothing,4411.58,Gold
+805,22,Female,23654,69,Chennai,Books,2577.05,Silver
+806,50,Male,109022,11,Chennai,Books,2588.01,Platinum
+807,18,Male,38743,94,Delhi,Groceries,778.02,Silver
+808,35,Female,68368,15,Delhi,Electronics,4915.42,Silver
+809,49,Male,110025,91,Chennai,Books,1324.87,Platinum
+810,64,Female,94172,35,Delhi,Home Decor,459.48,Silver
+811,66,Male,26441,33,Hyderabad,Electronics,3349.42,Silver
+812,28,Female,139735,84,Chennai,Clothing,3017.3,Silver
+813,38,Male,44611,16,Delhi,Groceries,2134.21,Gold
+814,43,Male,139891,34,Mumbai,Clothing,2168.74,Silver
+815,42,Female,127971,66,Chennai,Clothing,3946.81,Platinum
+816,39,Male,32149,99,Chennai,Electronics,1058.99,Platinum
+817,44,Female,120102,40,Hyderabad,Clothing,4119.24,Silver
+818,66,Male,79189,28,Bangalore,Books,3278.86,Silver
+819,30,Female,127904,47,Bangalore,Clothing,2152.95,Silver
+820,50,Female,41675,39,Hyderabad,Groceries,2344.34,Platinum
+821,51,Female,91031,70,Hyderabad,Groceries,1357.57,Platinum
+822,58,Female,62668,73,Hyderabad,Home Decor,3785.36,Gold
+823,52,Male,33673,20,Bangalore,Groceries,2613.09,Gold
+824,18,Male,149582,1,Hyderabad,Clothing,1672.19,Gold
+825,38,Female,96666,72,Delhi,Groceries,3020.65,Platinum
+826,65,Female,108204,87,Chennai,Electronics,4979.1,Gold
+827,23,Female,100758,63,Chennai,Groceries,2232.79,Silver
+828,45,Male,85429,67,Mumbai,Books,4611.39,Silver
+829,34,Male,43669,4,Mumbai,Electronics,1790.58,Platinum
+830,22,Male,54068,58,Chennai,Home Decor,368.19,Gold
+831,48,Male,108789,25,Delhi,Books,1100.79,Silver
+832,22,Female,29435,47,Bangalore,Clothing,2151.61,Platinum
+833,55,Female,114088,38,Bangalore,Clothing,1176.21,Gold
+834,20,Female,72249,15,Delhi,Clothing,101.11,Silver
+835,40,Male,57384,63,Bangalore,Books,4583.51,Gold
+836,54,Male,148782,21,Hyderabad,Books,4235.01,Platinum
+837,54,Male,101929,99,Chennai,Books,3737.23,Gold
+838,27,Female,147959,57,Chennai,Electronics,922.29,Platinum
+839,27,Female,96153,53,Delhi,Electronics,689.78,Gold
+840,36,Male,124056,46,Bangalore,Clothing,431.26,Silver
+841,34,Female,95388,14,Mumbai,Groceries,3647.74,Platinum
+842,38,Male,51401,76,Mumbai,Clothing,4651.16,Platinum
+843,31,Male,145511,17,Bangalore,Home Decor,2209.63,Platinum
+844,26,Female,91831,39,Mumbai,Electronics,683.79,Gold
+845,63,Male,139503,9,Delhi,Books,2610.72,Gold
+846,18,Female,135760,99,Delhi,Electronics,1809.28,Silver
+847,68,Male,121529,77,Bangalore,Books,1936.64,Platinum
+848,62,Female,147834,79,Mumbai,Home Decor,3144.52,Platinum
+849,30,Female,54084,82,Delhi,Home Decor,3621.72,Gold
+850,21,Female,140387,97,Delhi,Electronics,641.96,Gold
+851,18,Male,130641,6,Hyderabad,Books,274.39,Silver
+852,66,Male,125111,91,Hyderabad,Home Decor,4972.22,Silver
+853,57,Female,75826,23,Delhi,Clothing,1240.37,Gold
+854,49,Female,56451,59,Bangalore,Clothing,363.77,Platinum
+855,51,Male,27227,91,Chennai,Books,1030.39,Silver
+856,45,Male,51910,98,Chennai,Electronics,290.89,Gold
+857,48,Male,56041,46,Delhi,Home Decor,2019.87,Gold
+858,25,Female,108920,38,Delhi,Electronics,4031.77,Platinum
+859,56,Male,85681,14,Delhi,Clothing,1772.1,Gold
+860,43,Male,123314,72,Bangalore,Home Decor,2276.5,Gold
+861,51,Female,101571,62,Hyderabad,Electronics,3410.38,Silver
+862,20,Male,85481,35,Delhi,Groceries,2593.58,Gold
+863,67,Male,88576,19,Delhi,Books,4321.08,Gold
+864,29,Male,127958,30,Mumbai,Books,4343.57,Silver
+865,18,Female,149265,78,Bangalore,Groceries,148.56,Platinum
+866,61,Female,147556,84,Delhi,Clothing,3912.43,Platinum
+867,22,Female,84174,25,Mumbai,Home Decor,2357.59,Silver
+868,47,Female,46160,40,Chennai,Books,4945.32,Silver
+869,47,Female,135170,88,Delhi,Groceries,2467.84,Platinum
+870,34,Female,137867,14,Delhi,Groceries,4935.79,Platinum
+871,65,Female,37633,26,Mumbai,Clothing,3797.39,Platinum
+872,64,Male,114880,87,Bangalore,Clothing,1318.16,Platinum
+873,40,Male,37014,22,Delhi,Electronics,2738.14,Platinum
+874,32,Female,100532,48,Chennai,Books,4961.46,Silver
+875,54,Male,69104,83,Delhi,Electronics,4301.9,Gold
+876,38,Male,61621,51,Chennai,Groceries,577.1,Platinum
+877,31,Female,97231,3,Hyderabad,Home Decor,3561.22,Platinum
+878,19,Male,88388,42,Hyderabad,Home Decor,1793.34,Gold
+879,28,Male,36014,19,Chennai,Clothing,134.21,Gold
+880,68,Male,112578,73,Bangalore,Home Decor,2077.06,Gold
+881,56,Male,53755,28,Delhi,Home Decor,1250.3,Gold
+882,55,Male,60390,84,Delhi,Home Decor,4112.46,Gold
+883,51,Female,43711,45,Hyderabad,Groceries,1752.92,Gold
+884,55,Female,111658,71,Chennai,Home Decor,4154.87,Silver
+885,67,Female,77993,78,Delhi,Home Decor,102.93,Gold
+886,51,Male,94696,63,Delhi,Home Decor,1608.31,Gold
+887,35,Female,47213,73,Bangalore,Electronics,1281.71,Silver
+888,47,Male,135788,19,Mumbai,Groceries,1244.48,Gold
+889,32,Male,124956,47,Hyderabad,Clothing,434.11,Platinum
+890,44,Male,77784,14,Hyderabad,Electronics,1016.91,Platinum
+891,68,Male,27421,38,Mumbai,Books,2822.19,Gold
+892,51,Female,106936,53,Delhi,Groceries,1527.67,Silver
+893,69,Female,119073,61,Bangalore,Groceries,2145.23,Platinum
+894,55,Male,37727,36,Bangalore,Books,1946.65,Silver
+895,50,Female,132418,40,Hyderabad,Books,4391.93,Platinum
+896,41,Male,24358,81,Bangalore,Books,4535.97,Gold
+897,32,Female,85108,30,Mumbai,Clothing,2515.49,Silver
+898,47,Female,146609,9,Delhi,Home Decor,1717.76,Silver
+899,59,Male,114018,64,Mumbai,Groceries,623.32,Silver
+900,68,Female,144457,33,Chennai,Home Decor,4771.67,Platinum
+901,34,Male,52117,52,Hyderabad,Home Decor,395.11,Platinum
+902,22,Female,108700,89,Bangalore,Books,1558.49,Platinum
+903,46,Male,51910,14,Chennai,Clothing,1560.52,Gold
+904,21,Male,146888,75,Bangalore,Electronics,1669.97,Platinum
+905,27,Female,118032,53,Delhi,Clothing,905.01,Gold
+906,34,Female,75754,99,Delhi,Home Decor,3937.49,Silver
+907,27,Male,82438,59,Delhi,Clothing,700.24,Silver
+908,34,Female,129847,78,Bangalore,Books,3211.04,Gold
+909,37,Female,49371,94,Chennai,Electronics,706.85,Platinum
+910,41,Male,71501,41,Delhi,Books,445.62,Gold
+911,22,Male,80946,68,Chennai,Electronics,4556.2,Silver
+912,51,Female,58467,68,Bangalore,Home Decor,1031.63,Silver
+913,23,Male,37625,92,Chennai,Electronics,4124.13,Gold
+914,19,Male,53893,8,Bangalore,Electronics,2768.69,Platinum
+915,30,Male,96329,2,Bangalore,Electronics,481.5,Platinum
+916,60,Female,51007,86,Hyderabad,Clothing,4781.7,Gold
+917,60,Female,111302,41,Bangalore,Clothing,1310.11,Gold
+918,65,Male,59532,55,Bangalore,Home Decor,4312.26,Platinum
+919,28,Female,74253,16,Mumbai,Electronics,927.17,Silver
+920,68,Male,32323,93,Delhi,Groceries,4284.32,Gold
+921,64,Female,131335,62,Hyderabad,Home Decor,164.82,Platinum
+922,40,Male,132356,48,Hyderabad,Electronics,2607.72,Platinum
+923,33,Male,130944,30,Hyderabad,Electronics,3870.27,Silver
+924,48,Female,93379,12,Mumbai,Clothing,4680.5,Silver
+925,28,Male,34210,35,Bangalore,Home Decor,4555.09,Silver
+926,33,Female,36456,11,Delhi,Electronics,4116.16,Silver
+927,25,Female,51367,64,Chennai,Electronics,4452.14,Silver
+928,21,Male,74624,50,Bangalore,Home Decor,1076.18,Gold
+929,57,Male,30106,85,Mumbai,Groceries,1492.5,Platinum
+930,21,Female,123493,21,Bangalore,Home Decor,1515.95,Gold
+931,42,Male,88008,69,Bangalore,Home Decor,1947.56,Gold
+932,20,Male,145926,48,Mumbai,Groceries,2027.27,Gold
+933,49,Male,135395,20,Hyderabad,Home Decor,2768.32,Gold
+934,20,Male,136492,67,Hyderabad,Electronics,883.41,Gold
+935,44,Male,92240,44,Delhi,Home Decor,3487.11,Silver
+936,46,Female,84315,33,Delhi,Groceries,921.08,Silver
+937,49,Female,89249,73,Hyderabad,Books,1620.51,Platinum
+938,67,Male,90587,61,Chennai,Home Decor,2566.39,Gold
+939,68,Male,30756,9,Bangalore,Clothing,4002.56,Platinum
+940,36,Male,88011,68,Chennai,Electronics,3723.4,Silver
+941,38,Female,56378,35,Bangalore,Electronics,3263.12,Silver
+942,22,Male,24255,81,Hyderabad,Clothing,863.29,Silver
+943,35,Female,34484,98,Delhi,Clothing,2780.52,Gold
+944,45,Female,145703,88,Delhi,Home Decor,528.49,Gold
+945,59,Female,76549,96,Chennai,Clothing,1949.08,Silver
+946,39,Male,54503,65,Delhi,Books,2126.23,Platinum
+947,38,Female,144465,8,Hyderabad,Groceries,295.08,Platinum
+948,23,Male,93794,45,Chennai,Clothing,1442.54,Silver
+949,18,Female,145941,87,Bangalore,Clothing,4782.68,Platinum
+950,22,Male,126283,47,Delhi,Books,4772.8,Silver
+951,58,Female,120732,40,Mumbai,Electronics,1826.4,Platinum
+952,29,Male,65113,76,Delhi,Electronics,311.19,Silver
+953,43,Female,125730,54,Bangalore,Home Decor,977.57,Platinum
+954,63,Male,94069,76,Chennai,Books,2021.87,Gold
+955,51,Male,118117,46,Bangalore,Groceries,4744.12,Silver
+956,66,Male,25249,47,Mumbai,Groceries,791.88,Silver
+957,31,Male,145654,15,Hyderabad,Books,3841.23,Platinum
+958,43,Female,139979,19,Delhi,Groceries,632.54,Silver
+959,62,Female,39201,26,Chennai,Electronics,4908.16,Silver
+960,44,Male,145541,52,Hyderabad,Groceries,1969.92,Silver
+961,26,Female,78576,93,Bangalore,Groceries,3898.65,Gold
+962,43,Male,138562,22,Chennai,Books,1778.7,Gold
+963,64,Male,145281,21,Hyderabad,Books,3175.58,Platinum
+964,39,Female,29686,51,Chennai,Groceries,1040.88,Gold
+965,64,Male,132413,38,Mumbai,Clothing,815.5,Platinum
+966,47,Male,73363,20,Mumbai,Books,4696.51,Gold
+967,60,Female,117543,29,Delhi,Home Decor,4596.47,Platinum
+968,65,Male,20661,51,Delhi,Home Decor,4448.6,Gold
+969,34,Male,64843,4,Mumbai,Electronics,3164.62,Gold
+970,43,Male,115673,55,Chennai,Groceries,4060.51,Platinum
+971,53,Male,80963,71,Mumbai,Clothing,438.28,Silver
+972,18,Female,133092,92,Delhi,Electronics,1740.47,Silver
+973,25,Female,62828,28,Mumbai,Groceries,1637.15,Gold
+974,66,Female,68604,4,Mumbai,Books,3214.66,Platinum
+975,52,Male,30526,22,Chennai,Home Decor,1844.19,Silver
+976,69,Male,88910,76,Hyderabad,Clothing,827.68,Platinum
+977,32,Female,45592,45,Delhi,Home Decor,3022.69,Silver
+978,64,Male,48982,67,Chennai,Books,4090.48,Platinum
+979,39,Male,20207,86,Mumbai,Groceries,1972.41,Gold
+980,31,Male,120969,66,Mumbai,Books,748.12,Platinum
+981,43,Male,137181,88,Hyderabad,Books,1063.77,Silver
+982,45,Female,108733,34,Delhi,Home Decor,1263.67,Gold
+983,40,Female,118936,91,Delhi,Clothing,1569.5,Platinum
+984,31,Female,144982,55,Bangalore,Books,3249.7,Silver
+985,41,Male,145839,1,Delhi,Home Decor,3044.63,Gold
+986,19,Female,88619,72,Hyderabad,Clothing,3510.79,Platinum
+987,62,Female,49328,87,Bangalore,Groceries,1876.26,Silver
+988,43,Male,66479,38,Bangalore,Groceries,4137.59,Platinum
+989,31,Male,128427,6,Mumbai,Electronics,1100.03,Platinum
+990,68,Female,40103,86,Mumbai,Home Decor,2398.3,Gold
+991,24,Female,59891,25,Delhi,Clothing,4024.6,Gold
+992,20,Female,30754,82,Bangalore,Books,982.78,Silver
+993,64,Female,119983,17,Mumbai,Groceries,638.33,Gold
+994,40,Male,101437,61,Hyderabad,Clothing,4430.05,Silver
+995,63,Female,118540,12,Mumbai,Home Decor,1780.36,Platinum
+996,60,Female,92982,6,Mumbai,Electronics,3450.96,Platinum
+997,64,Male,122747,90,Bangalore,Groceries,224.21,Silver
+998,62,Female,75922,27,Bangalore,Clothing,3481.23,Platinum
+999,35,Male,68231,8,Chennai,Clothing,1648.9,Gold
+1000,55,Male,49301,83,Hyderabad,Clothing,373.13,Platinum
